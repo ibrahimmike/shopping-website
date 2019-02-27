@@ -1,0 +1,103 @@
+.navp{
+padding-left: 60%;
+}
+.welcome {
+width:auto;
+margin: 0 auto;
+position:relative;
+}
+.banner {
+background-image: url(shopping.jpg);
+background-size: cover;
+color: #EB5656;
+font-family: Ubuntu;
+
+}
+.header{
+  padding-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+}
+h4{
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
+h5{
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+.searchb{
+  margin-left:50%;
+  padding-bottom: 30%;
+  margin-top: 0;
+}
+
+.container{
+  padding-top:3%;
+
+}
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-menu{
+  padding-right: 5%;
+}
+.cartImg{
+  width:100px;
+}
+.itemsList{
+    width:300px;
+    overflow-y: scroll;
+}
+.removeB{
+  color: red !important;
+}
+.removeB:hover{
+  cursor:  pointer;
+}
+.hide {
+  display: none;
+}
+@media only screen and (max-width:769px){
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.slide{
+
+  flex: 0 0 auto;
+}
+.slider::-webkit-scrollbar{
+  display: none;
+}
+h3{
+  font-size:50%;
+  margin:0;
+}
+.text-muted{
+  display: none;
+}
+span{
+  font-size:50%;
+  margin:0;
+}
+.card-body{
+  margin:0;
+}
+img{
+  height : 110px;
+}
+.searchb{
+  margin-left:5%;
+  padding-bottom: 1%;
+  margin-top: 0;
+}
+.dropdown-menu{
+  margin-left: -180px !important;
+}
+}

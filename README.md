@@ -1,2 +1,1 @@
-# shopping-website
-shopping website first page
+# first-page-of-the-shopping-website
